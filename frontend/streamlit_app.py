@@ -1,8 +1,10 @@
 import streamlit as st
 import requests
 import pandas as pd
+import os
 
-API_URL = "http://127.0.0.1:8001/evaluate"
+# Use BACKEND_URL env var if set, otherwise default to the deployed Render backend
+API_URL = os.environ.get("BACKEND_URL", "https://decision-companion-system-1.onrender.com") + "/evaluate"
 
 st.set_page_config(page_title="Decision Companion System", layout="wide")
 
