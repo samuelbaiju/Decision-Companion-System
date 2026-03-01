@@ -6,6 +6,16 @@
 **Date:** March 2026  
 **Stack:** Python · FastAPI · Streamlit · Pydantic
 
+## 🌐 Live Demo
+
+| Service | URL |
+|---------|-----|
+| **Frontend (Streamlit UI)** | [https://decision-companion-system-2.onrender.com](https://decision-companion-system-2.onrender.com/) |
+| **Backend API (FastAPI)** | [https://decision-companion-system-1.onrender.com](https://decision-companion-system-1.onrender.com/) |
+| **API Documentation (Swagger)** | [https://decision-companion-system-1.onrender.com/docs](https://decision-companion-system-1.onrender.com/docs) |
+
+> ⚠️ **Cold Start Notice:** This application is deployed on Render's free tier. If the app has been inactive for more than 15 minutes, both the frontend and backend services enter a sleep state. The **first request after inactivity may take 30–60 seconds** as the servers spin back up. Subsequent requests will respond instantly. Please be patient on the initial load — once awake, the app performs normally.
+
 ---
 
 ## 📌 Understanding of the Problem
