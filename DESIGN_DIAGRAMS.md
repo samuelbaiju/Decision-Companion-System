@@ -1,7 +1,7 @@
 # 📐 Decision Companion System — Design Diagrams
 
 > **Project:** Decision Companion System  
-> **Author:** Baiju  
+> **Author:** Samuel Baiju 
 > **Architecture Style:** Client-Server (Streamlit + FastAPI)  
 > **Core Algorithm:** Weighted Multi-Criteria Decision Making (WMCDM)
 
