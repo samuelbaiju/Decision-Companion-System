@@ -1,0 +1,25 @@
+# Virtual environments
+env/
+venv/
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Test results and output files
+test_results.txt
+output.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
